@@ -8,16 +8,16 @@ on:
 
       os:
 
-        description: 'Nhập token Ngrok'
+        description    : '2Hd65Ym4vK69ypHWPRKTyzd6jpF_4dhQNpr5PkDWzTACMaP7U '
 
         required: true
       us:
-        description: 'Nhập tên người dùng'
+        mô tả    : 'Nam123'
 
         required: true
       os2:
 
-        description: 'Nhập mật khẩu'
+        description: 'Nam@123'
 
         required: true
       
@@ -106,7 +106,7 @@ jobs:
             write-host Password: ${{ github.event.inputs.os2 }}
 
       timeout-minutes: 360
-    - name: Nhận IP VPS
+    - name: Nam12345
       run: |
             write-host IP LÀ:
 
